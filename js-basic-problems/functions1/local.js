@@ -1,3 +1,5 @@
+
+
 const extractLanguage = local => {
   return local.slice(0,2);
 }
