@@ -1,0 +1,18 @@
+let catAge = age => {
+  if (age === 0) {
+    return 0;
+  } else if (age < 2) {
+    return 15;
+  } else if (age < 3) {
+    return 24;
+  } else {
+    return ((age - 2) * 4) + 24;
+  }
+}
+
+console.log(catAge(0)); // 0
+console.log(catAge(1)); // 15
+console.log(catAge(2)); // 24
+console.log(catAge(3)); // 28
+console.log(catAge(4)); // 32
+console.log(catAge(5)); // 36
